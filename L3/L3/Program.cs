@@ -9,6 +9,7 @@ namespace Menu
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             double a;
             Console.WriteLine("Введите А: ");
             a = Convert.ToDouble(Console.ReadLine());
@@ -19,6 +20,20 @@ namespace Menu
             b = Convert.ToDouble(Console.ReadLine());
            
            
+=======
+            char c;
+            double d;
+
+            Console.WriteLine("Введите знак");
+            Console.WriteLine("-");
+
+            c = Convert.ToChar(Console.ReadLine());
+            if (c == '-')
+            {
+                d = a - b;
+            }
+
+>>>>>>> minus
 
 >>>>>>> B
 =======
