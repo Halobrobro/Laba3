@@ -5,10 +5,6 @@ namespace Menu
     {
         static void Main(string[] args)
         {
-
-
-<<<<<<< HEAD
-
             double a;
             Console.WriteLine("Введите А: ");
             a = Convert.ToDouble(Console.ReadLine());
