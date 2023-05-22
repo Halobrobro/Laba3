@@ -7,21 +7,26 @@ namespace Menu
         {
 
 
-            double a;
-            double b;
             char c;
             double d;
-            Console.WriteLine("Введите А: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите B: ");
-            b = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите знак");
-            Console.WriteLine("+");
-            Console.WriteLine("-");
-            Console.WriteLine("*");
             Console.WriteLine("/");
+
             c = Convert.ToChar(Console.ReadLine());
-           
+            if (c == '/')
+            {
+                if(b==0)
+                {
+                    Console.WriteLine("На ноль делить нельзя");
+                }
+                else
+                {
+                    d = a / b;
+                }
+                
+            }
+
 
         }
     }
