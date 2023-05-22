@@ -24,22 +24,12 @@ namespace Menu
 
             Console.WriteLine("Введите знак");
             Console.WriteLine("-");
-
+            Console.WriteLine("+");
             c = Convert.ToChar(Console.ReadLine());
             if (c == '-')
             {
                 d = a - b;
             }
-
-
-            
-            char c;
-            double d;
-        
-            Console.WriteLine("Введите знак");
-            Console.WriteLine("+");
-
-            c = Convert.ToChar(Console.ReadLine());
             if (c == '+')
             {
                 d = a + b;
