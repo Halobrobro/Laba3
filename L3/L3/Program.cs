@@ -25,6 +25,8 @@ namespace Menu
             Console.WriteLine("Введите знак");
             Console.WriteLine("-");
             Console.WriteLine("+");
+
+            Console.WriteLine("*");
             c = Convert.ToChar(Console.ReadLine());
             if (c == '-')
             {
@@ -34,7 +36,10 @@ namespace Menu
             {
                 d = a + b;
             }
-
+            if (c == '*')
+            {
+                d = a * b;
+            }
         }
     }
 }
