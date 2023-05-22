@@ -8,6 +8,7 @@ namespace Menu
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             double a;
             Console.WriteLine("Введите А: ");
             a = Convert.ToDouble(Console.ReadLine());
@@ -20,6 +21,20 @@ namespace Menu
            
 
 >>>>>>> B
+=======
+            
+            char c;
+            double d;
+        
+            Console.WriteLine("Введите знак");
+            Console.WriteLine("+");
+
+            c = Convert.ToChar(Console.ReadLine());
+            if (c == '+')
+            {
+                d = a + b;
+            }
+>>>>>>> +
         }
     }
 }
