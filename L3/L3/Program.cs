@@ -7,20 +7,18 @@ namespace Menu
         {
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             double a;
             Console.WriteLine("Введите А: ");
             a = Convert.ToDouble(Console.ReadLine());
-=======
+
             
             double b;
             Console.WriteLine("Введите B: ");
             b = Convert.ToDouble(Console.ReadLine());
            
            
-=======
+
             char c;
             double d;
 
@@ -33,10 +31,7 @@ namespace Menu
                 d = a - b;
             }
 
->>>>>>> minus
 
->>>>>>> B
-=======
             
             char c;
             double d;
@@ -49,7 +44,7 @@ namespace Menu
             {
                 d = a + b;
             }
->>>>>>> +
+
         }
     }
 }
